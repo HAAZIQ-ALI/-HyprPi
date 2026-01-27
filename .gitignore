@@ -1,11 +1,15 @@
 
+# Explicitly ignore noisy apps
+BraveSoftware/
+heroic/
+nvim/
 # Ignore everything in .config
 .config/*
 
-# Allow directories themselves
+# Allow root
 !.config/
 
-# Unignore specific configs
+# Keep only these
 !.config/kitty/
 !.config/kitty/**
 
@@ -18,5 +22,4 @@
 !.config/quickshell/
 !.config/quickshell/**
 
-# Unignore single file
 !.config/starship.toml
