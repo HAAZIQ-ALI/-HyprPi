@@ -6,7 +6,7 @@ import Quickshell.Widgets
 import Quickshell.Services.Mpris   
 
 
-//import "../../Core" as Core
+import qs.core
 
 Rectangle {
 
@@ -23,11 +23,16 @@ Rectangle {
     Layout.fillWidth: false
     Layout.alignment: Qt.AlignVCenter
 
-    color: colors.surface_container
-    border.color: player && player.isPlaying ? colors.surface_tint : colors.outline
+    color: Colors.color.surface_container
+    border.color: player && player.isPlaying ? Colors.color.surface_tint : Colors.color.outline
     border.width: player && player.isPlaying ? 3 : 2
 
-    Behavior on border.color { ColorAnimation { duration: 90 } }
+    Behavior on border.color { 
+	    ColorAnimation {
+		    duration: 90  
+	   	    easing: Easing.OutQuad 
+	    }
+    }
     Behavior on border.width { NumberAnimation { duration: 90 } }
 
 
@@ -43,7 +48,7 @@ Rectangle {
             ? player.trackTitle
             : "No Sounds Found"
 
-        font.family: "Lexend "
+        font.family: "Lexend"
         font.bold: true
 	font.pixelSize: 12
 	font.letterSpacing: 0.5
@@ -55,8 +60,8 @@ Rectangle {
 	horizontalAlignment: Text.AlignHCenter
 
         color: player && player.isPlaying
-            ? colors.tertiary_fixed
-            : colors.on_surface
+            ? Colors.color.tertiary_fixed
+            : Colors.color.on_surface
 
         Behavior on color { ColorAnimation { duration: 80 } }
     }

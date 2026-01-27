@@ -11,17 +11,16 @@ PanelWindow {
     id: root
     implicitHeight: 40
 
-	color: Colors.color.background
-//	color: "#C8FFBE"
+	color: "transparent"
+	//color: Colors.color.surface_container_low
     anchors {
-        top: true
+	    top: true
+	    //bottom: true
         left: true
         right: true
     }
 
-
-
-    RowLayout{
+  RowLayout{
 	    spacing: 10 
 	    anchors.fill: parent
 	    layoutDirection: Qt.LeftToRight  // Explicit direction
@@ -30,11 +29,16 @@ PanelWindow {
        leftMargin: 10 } 
 
 	
-	    //Stuff.ClockPill {}
-	    //Stuff.PlayState {} 
-	    Item {
-       Layout.fillWidth: true
-   }
+	    ClockPill {}
+	    PlayStatePill {} 
+	    Item { Layout.fillWidth: true }
+	    WorkspacePill{}
 
+
+	    Item { Layout.fillWidth: true }
+
+	    Item { Layout.fillWidth: true }
     }
+
+    
 }

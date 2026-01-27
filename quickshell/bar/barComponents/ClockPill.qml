@@ -5,6 +5,7 @@ import Quickshell.Hyprland
 import Quickshell.Widgets
 //import "../../Core" as Core
 
+import qs.core
 Rectangle{
 	SystemClock{ id: clock ; precision: SystemClock.Minutes ;}
 
@@ -16,10 +17,10 @@ Rectangle{
 	Layout.preferredHeight: parent.height -10
 	Layout.alignment: Qt.AlignVCenter
 
-	color: colors.surface_container 
+	color: Colors.color.surface_container 
 
 	border.width: 2
-	border.color: colors.outline
+	border.color: Colors.color.outline
 
 	Text{
 		id:clocktext
@@ -29,7 +30,7 @@ Rectangle{
 	        font.letterSpacing: 0.6
 		font.bold: true 
 		font.pixelSize: 15
-		color: colors.on_surface
+		color: Colors.color.on_surface
 		horizontalAlignment: Text.AlignHCenter
 	}
 }
