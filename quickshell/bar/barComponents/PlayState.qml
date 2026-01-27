@@ -5,7 +5,6 @@ import Quickshell.Hyprland
 import Quickshell.Widgets
 import Quickshell.Services.Mpris   
 
-import Core 1.0
 
 //import "../../Core" as Core
 

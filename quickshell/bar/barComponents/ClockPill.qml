@@ -5,7 +5,6 @@ import Quickshell.Hyprland
 import Quickshell.Widgets
 //import "../../Core" as Core
 
-import Core 1.0
 Rectangle{
 	SystemClock{ id: clock ; precision: SystemClock.Minutes ;}
 
