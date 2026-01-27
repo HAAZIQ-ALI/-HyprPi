@@ -1,0 +1,91 @@
+{
+   "checksum": "e992f52525c660db6f61b2e964fcb4f0",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13413310888875978",
+            "date_last_used": "0",
+            "guid": "b5920809-128f-4958-8fab-f04c3e1d537b",
+            "id": "5",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "New Tab",
+            "type": "url",
+            "url": "chrome://newtab/"
+         }, {
+            "date_added": "13413712687442288",
+            "date_last_used": "13413882086353754",
+            "guid": "38fb8d70-3d50-4747-b6c3-c5086dbf5b46",
+            "id": "7",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Free Ui Sound Effects Download - Pixabay",
+            "type": "url",
+            "url": "https://pixabay.com/sound-effects/search/ui/"
+         }, {
+            "date_added": "13413741081621158",
+            "date_last_used": "13413812642791562",
+            "guid": "e461e02b-4d22-474e-b60e-03a7c255f72b",
+            "id": "9",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "GitHub - quickshell-mirror/quickshell-examples: Official examples for quickshell",
+            "type": "url",
+            "url": "https://github.com/quickshell-mirror/quickshell-examples"
+         }, {
+            "date_added": "13413741406885501",
+            "date_last_used": "13413802811361491",
+            "guid": "637737e8-d38c-4aef-b229-d11c827d1610",
+            "id": "10",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "widgets-collection/widgets/dock/Dock.qml at main · crawraps/widgets-collection · GitHub",
+            "type": "url",
+            "url": "https://github.com/crawraps/widgets-collection/blob/main/widgets/dock/Dock.qml"
+         }, {
+            "date_added": "13413741686469616",
+            "date_last_used": "13413981409855219",
+            "guid": "7bab32d3-4ead-4dc5-883d-b6eeb06186b4",
+            "id": "11",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "GitHub - CooperGTe/nullframe-shell: Quickshell Desktop Shell",
+            "type": "url",
+            "url": "https://github.com/CooperGTe/nullframe-shell"
+         } ],
+         "date_added": "13413310761673157",
+         "date_last_used": "0",
+         "date_modified": "13413741686469616",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13413310761673157",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13413310761673157",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

@@ -1,0 +1,6 @@
+2026/01/26-15:21:42.426 4f4d Creating DB /home/hazyPi/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.fandom.com_0.indexeddb.leveldb since it was missing.
+2026/01/26-15:21:42.430 4f4d Reusing MANIFEST /home/hazyPi/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.fandom.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/01/26-15:32:21.126 4f4f Level-0 table #5: started
+2026/01/26-15:32:21.131 4f4f Level-0 table #5: 5300 bytes OK
+2026/01/26-15:32:21.136 4f4f Delete type=0 #3
+2026/01/26-15:32:21.136 4f4f Manual compaction at level-0 from (begin) .. (end); will stop at (end)

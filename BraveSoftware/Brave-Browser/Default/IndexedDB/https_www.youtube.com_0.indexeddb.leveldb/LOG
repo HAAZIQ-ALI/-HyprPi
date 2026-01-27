@@ -1,0 +1,14 @@
+2026/01/27-14:35:53.728 323 Reusing MANIFEST /home/hazyPi/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/01/27-14:35:53.728 323 Recovering log #239
+2026/01/27-14:35:53.739 323 Reusing old log /home/hazyPi/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000239.log 
+2026/01/27-14:35:53.739 323 Delete type=2 #237
+2026/01/27-14:35:53.739 323 Delete type=2 #240
+2026/01/27-14:43:08.394 323 Level-0 table #244: started
+2026/01/27-14:43:08.408 323 Level-0 table #244: 1310459 bytes OK
+2026/01/27-14:43:08.410 323 Delete type=0 #239
+2026/01/27-15:13:56.966 323 Compacting 1@1 + 1@2 files
+2026/01/27-15:13:56.981 323 Generated table #245@1: 1728 keys, 101289 bytes
+2026/01/27-15:13:56.981 323 Compacted 1@1 + 1@2 files => 101289 bytes
+2026/01/27-15:13:56.984 323 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/01/27-15:13:56.984 323 Delete type=2 #241
+2026/01/27-15:13:56.984 323 Delete type=2 #244

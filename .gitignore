@@ -1,0 +1,22 @@
+
+# Ignore everything in .config
+.config/*
+
+# Allow directories themselves
+!.config/
+
+# Unignore specific configs
+!.config/kitty/
+!.config/kitty/**
+
+!.config/matugen/
+!.config/matugen/**
+
+!.config/hypr/
+!.config/hypr/**
+
+!.config/quickshell/
+!.config/quickshell/**
+
+# Unignore single file
+!.config/starship.toml

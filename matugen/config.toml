@@ -1,0 +1,25 @@
+
+[config]
+version_check = false
+reload_apps = true
+
+[templates.kitty]
+input_path  = "/home/hazyPi/.config/matugen/templates/kitty.conf"
+output_path = "/home/hazyPi/.config/kitty/colors.conf"
+post_hook   = "pkill -SIGUSR1 kitty"
+[templates.hyprland]
+input_path  = "/home/hazyPi/.config/matugen/templates/hyprland-colors.conf"
+output_path = "/home/hazyPi/.config/hypr/hyprland/colors.conf"
+post_hook   = "hyprctl reload"
+
+[templates.starship]
+input_path = '/home/hazyPi/.config/matugen/templates/starship-colors.toml'
+output_path = '/home/hazyPi/.config/starship.toml'
+[templates.quickshell] 
+input_path  = "/home/hazyPi/.config/matugen/templates/qs-colors.json" 
+output_path = "/home/hazyPi/.config/quickshell/core/qs-colors.json" 
+[templates.cava]
+input_path = '/home/hazyPi/.config/matugen/templates/cava-colors.ini'
+output_path = '/home/hazyPi/.config/cava/themes/hazyPitheme'
+post_hook = 'pkill -USR1 cava'
+

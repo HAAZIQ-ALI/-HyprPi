@@ -1,0 +1,6 @@
+2026/01/19-19:08:39.535 4b2 Creating DB /home/hazyPi/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_claude.ai_0.indexeddb.leveldb since it was missing.
+2026/01/19-19:08:39.541 4b2 Reusing MANIFEST /home/hazyPi/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_claude.ai_0.indexeddb.leveldb/MANIFEST-000001
+2026/01/19-19:08:44.002 4b3 Level-0 table #5: started
+2026/01/19-19:08:44.006 4b3 Level-0 table #5: 1309 bytes OK
+2026/01/19-19:08:44.007 4b3 Delete type=0 #3
+2026/01/19-19:08:44.007 4b3 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
