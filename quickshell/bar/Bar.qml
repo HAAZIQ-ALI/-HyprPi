@@ -1,4 +1,4 @@
-import QtQuick 6.5
+import QtQuick 
 import QtQuick.Layouts
 import Quickshell
 import Quickshell.Hyprland
@@ -8,37 +8,31 @@ import qs.bar.barComponents
 import qs.core
 
 PanelWindow {
-    id: root
-    implicitHeight: 40
-
-	color: "transparent"
-	//color: Colors.color.surface_container_low
+    id: daddy
+    
+    implicitHeight: 42 
     anchors {
-	    top: true
-	    //bottom: true
+        top: true
         left: true
         right: true
     }
 
-  RowLayout{
-	    spacing: 10 
-	    anchors.fill: parent
-	    layoutDirection: Qt.LeftToRight  // Explicit direction
-	    anchors {
-       left: parent.left
-       leftMargin: 10 } 
+    color: "transparent"
 
-	
-	    ClockPill {}
-	    PlayStatePill {} 
-	    Item { Layout.fillWidth: true }
-	    WorkspacePill{}
+    RowLayout {
+        anchors.fill: parent
+        anchors.leftMargin: 10
+        anchors.rightMargin: 10
+        
+        spacing: 10 
 
+        ClockPill {}
+        PlayStatePill {} 
+        
 
-	    Item { Layout.fillWidth: true }
-
-	    Item { Layout.fillWidth: true }
+	Item { Layout.fillWidth: true }
+	WorkspacePill {}
+	Item { Layout.fillWidth: true }
+        BatteryPill {} 
     }
-
-    
 }

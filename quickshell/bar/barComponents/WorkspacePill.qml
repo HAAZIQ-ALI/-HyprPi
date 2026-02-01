@@ -7,8 +7,11 @@ import qs.core
 
 Rectangle{
 	id: hostRect
-	implicitHeight: 30 
-	implicitWidth: wsHolder.width + 68 
+	implicitHeight: parent.height - 10 
+	implicitWidth: wsHolder.width + 88
+ 
+
+	anchors.horizontalCenter :parent.horizontalCenter
 	
 	color: Colors.color.surface_container 
 	border.color: Colors.color.outline
@@ -17,7 +20,7 @@ Rectangle{
 	radius:  implicitHeight /  1.5 
 
 
-	Layout.alignment: Qt.AlignHCenter  // Centers this item horizontally within the layout
+	//Layout.alignment: Qt.AlignHCenter  
 
 	Behavior on implicitWidth{
 		NumberAnimation{
@@ -46,11 +49,12 @@ Rectangle{
 				property bool isActive : Hyprland.focusedWorkspace?.id === ( index + 1 )
 				property var whichWorkspace : Hyprland.workspaces.values.find ( w => w.id === index + 1 )
 				Layout.alignment : Qt.AlignVCenter
-				implicitHeight : hostRect.height - 8
-				implicitWidth : isActive? 28 : 14 
+				//implicitHeight : hostRect.height - 12 
+				implicitWidth : isActive? 30 : 14 
+				implicitHeight : isActive? hostRect.height - 15 : hostRect.height - 12   
 
 				color: isActive? Colors.color.primary_fixed : Colors.color.surface_container_high
-				radius:  12
+				radius: 10 
 
 				Behavior on color {
 					ColorAnimation{
